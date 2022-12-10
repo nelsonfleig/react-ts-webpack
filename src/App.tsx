@@ -5,7 +5,9 @@ import IMAGE_SVG from './react-logo.svg';
 export const App = () => {
   return (
     <>
-      <h1>React Typescript Webpack Template</h1>
+      <h1>
+        React Typescript Webpack Template - {process.env.NODE_ENV} {process.env.name}
+      </h1>
       <img src={IMAGE_PNG} alt='React logo png' width='300' height='300' />
       <img src={IMAGE_SVG} alt='React logo svg' width='300' height='300' />
     </>
